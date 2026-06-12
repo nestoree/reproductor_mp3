@@ -2,7 +2,7 @@
 
 Reproductor de música en GTK3 + GStreamer con temas oscuros, letras LRC sincronizadas, portadas de álbum y soporte para múltiples formatos.
 
-![Captura](screenshot.png)
+![Captura](/img/screenshot.png)
 
 ## Características
 
