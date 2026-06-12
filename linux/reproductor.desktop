@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Reproductor App
+Comment=Reproductor de musica con soporte para MP3, FLAC, WAV, letras LRC y temas oscuros
+Exec=/usr/local/bin/reproductor
+Icon=reproductor
+Terminal=false
+Type=Application
+Categories=Audio;Music;Player;
+StartupNotify=true
+MimeType=audio/mpeg;audio/flac;audio/x-wav;audio/ogg;audio/x-m4a;audio/opus;audio/x-wma;audio/aac;
