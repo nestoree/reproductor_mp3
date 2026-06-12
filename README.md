@@ -2,6 +2,8 @@
 
 Reproductor de música en GTK3 + GStreamer con temas oscuros, letras LRC sincronizadas, portadas de álbum y soporte para múltiples formatos.
 
+![Captura](screenshot.png)
+
 ## Características
 
 - **5 temas oscuros**: Azul, Púrpura, Verde, Rojo y Carbón
@@ -55,7 +57,8 @@ Solo haz doble clic en **`setup.bat`** — automáticamente:
 3. Instala GCC, GTK3, GStreamer, gst-libav y librsvg
 4. Compila `player.c` → `reproductor.exe`
 5. Crea `run.bat` para lanzamientos futuros
-6. Ejecuta el reproductor
+6. Crea un acceso directo en el escritorio con el icono `reproductor.ico`
+7. Ejecuta el reproductor
 
 No requiere instalación manual de nada. Si aparece UAC, haz clic en **Sí**.
 
@@ -83,7 +86,8 @@ reproductor
 | `player.py` | Versión Python PyGObject (obsoleto) |
 | `install.sh` | Instalador Linux |
 | `reproductor.desktop` | Entrada de escritorio |
-| `reproductor.svg` | Icono de la app |
+| `reproductor.svg` | Icono de la app (SVG) |
+| `reproductor.ico` | Icono de la app (Windows) |
 | `windows/` | Código y scripts para Windows |
 | `windows/player.c` | Fuente C compilado nativamente con MSYS2 MINGW64 |
 | `windows/setup.ps1` | Instalador automático PowerShell |
