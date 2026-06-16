@@ -83,7 +83,6 @@ reproductor
 | Archivo | Descripción |
 |---|---|
 | `player.c` | Código fuente Linux (GTK3 + GStreamer) |
-| `player.py` | Versión Python PyGObject (obsoleto) |
 | `install.sh` | Instalador Linux |
 | `reproductor.desktop` | Entrada de escritorio |
 | `reproductor.svg` | Icono de la app (SVG) |
